@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+  width: 100%;  
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-image: linear-gradient(#fb8c04,#945b00);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav a li:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+.content-items img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content-items img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-text{
+    position: absolute;
+    top: 0%;
+    color: rgb(8, 8, 8);
+    padding: 115px;
+}
+
+.content-text h4{
+font-size: 30px;
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.content-text p{
+    font-size: 30px;
+    margin-bottom: 10px 
+}
+
+.content-text p2{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.content-text h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
